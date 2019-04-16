@@ -1,0 +1,220 @@
+.left{
+    padding-left: 0.5rem;
+    box-sizing: border-box;
+    display: inline-flex;
+    font-size: 0.7rem;
+}
+.right{
+    display: inline-flex;
+}
+.FormBoby{
+    .whole{
+        position: fixed;
+        left: 0;
+        right: 0;
+        top:0;
+        bottom:0;
+        text-align:center;
+        height: 100vh;
+        line-height:100vh;
+        color:#FF571A;
+    }
+    .Choice{
+        color: #adabab;
+    }
+    margin-top: 0.6rem;
+    >div{
+        background: #fff;
+        border-bottom: 1px solid #e3e1e1;
+    }
+    // 门店样式
+    .org{
+        padding-top: 0.5rem;
+        box-sizing: border-box;
+        height: 3.1rem;
+        font-size: 0.7rem;
+        line-height: 1rem;
+        .left{
+            width: 4.3rem;
+            height: 2.5rem;
+            vertical-align:baseline;
+        }
+        .right{
+            width: 10.8rem;
+            span{
+                display: inline-block;
+            }
+            .Choice{
+                width: 10.5rem;
+                line-height: 2.5rem;
+                text-align: right;
+            }
+            .icon{
+                line-height: 2.5rem;
+                // margin-left: 0.4rem;
+            }
+            .rightDiv{
+                display: inline-block;
+                 .top{
+                    display: inline-block;
+                    width: 10rem;
+                    overflow:hidden;
+                    text-align: right;
+                    text-overflow:ellipsis;
+                    white-space:nowrap;
+                }
+                .bottom{
+                    display: inline-block;
+                    width: 10rem;
+                    text-align: right;
+                    font-size: 0.6rem;
+                    color: rgb(150, 150, 150);
+                }
+            }
+        }
+    }
+    // 预约项目
+    .Repair{
+        height: 2rem;
+        line-height: 2rem;
+        .left{
+            width:4rem;
+            vertical-align:top;
+        }
+        .right{
+            width:11rem;
+            text-align: right;
+            font-size: 0.7rem;
+            >span{
+                display: inline-block;
+                width: 10.3rem;
+            }
+            .icon{
+                line-height: 2rem;
+            }
+        }
+    }
+    // 到店时间样式
+    .arriveTime{
+        height: 2rem;
+        line-height: 2rem;
+        .left{
+            width: 5rem;
+        }
+        .right{
+            width: 10rem;
+            text-align: right;
+            font-size: 0.7rem;
+            >span{
+                display: inline-block;
+                width: 9.3rem;
+            }
+            .icon{
+                line-height: 2rem;
+            }
+        }
+    }
+    // 车型样式
+    .carModel{
+        height: 2.2rem;
+        line-height: 2rem;
+        .left{
+            width: 4rem;
+        }
+        .right{
+            width: 11rem;
+            text-align: right;
+            font-size: 0.7rem;
+            >span{
+                display: inline-block;
+                width: 10.3rem;
+                overflow:hidden;
+                text-align: right;
+                text-overflow:ellipsis;
+                white-space:nowrap;
+            }
+            .icon{
+                line-height: 2rem;
+            }
+        }
+    }
+    // 车牌样式
+    .carPlate{
+        height: 2rem;
+        line-height: 2rem;
+        .left{
+            width: 3rem;
+        }
+        .center{
+            display: inline-block;
+            width: 4rem;
+            font-size: 0.7rem;
+        }
+        .right{
+            >input{
+                width: 7rem;
+                text-align: right;
+                border: none;
+                outline:none;
+                font-size: 0.7rem;
+            }
+            font-size: 0.7rem;
+        }
+    }
+    // 联系人样式
+    .linkman{
+        display: flex;
+        height: 2rem;
+        line-height: 2rem;
+        .left{
+            width: 3rem;
+        }
+        .center{
+            >input{
+                width: 4rem;
+                text-align: center;
+                border: none;
+                font-size: 0.7rem;
+                outline:none;
+            }
+            display: inline-block;
+            width: 4rem;
+            font-size: 0.7rem;
+            height: 2rem;
+        }
+        .right{
+            height: 2rem;
+            width: 8rem;
+            font-size: 0.7rem;
+        }
+    }
+    //手机号样式 mobile
+    .mobile{
+        display: flex;
+        height: 2rem;
+        line-height: 2rem;
+        .left{
+            width: 3rem;
+        }
+        .right{
+            height: 2rem;
+            font-size: 0.7rem;
+            >input{
+                width: 12rem;
+                text-align: right;
+                border: none;
+                font-size: 0.7rem;
+                outline:none;
+            }
+        }
+    }
+    // 按钮
+    .btn{
+        width: 15rem;
+        height: 1.7rem;
+        background: #FF571A;
+        color: #fff;
+        margin-left: 0.5rem;
+        margin-top: 0.5rem;
+    }
+}

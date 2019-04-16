@@ -1,0 +1,28 @@
+/* 公共的样式 */
+*{
+  margin: 0;
+  padding: 0;
+}
+a {
+  color:#666; text-decoration:none;
+}
+ul, ol {
+  list-style: none
+}
+.clearfix:before,.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+
+}
+
+/* 公共的类 */
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.mL{
+  margin-left: 0.4rem;
+}
